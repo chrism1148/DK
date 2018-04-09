@@ -1,0 +1,112 @@
+Rank,EntryId,EntryName,EntryPoints,Player,Position,PercentDrafted,PlayerPoints,Pitcher1,Pitcher2,Catcher,FirstBase,SecondBase,ThirdBase,ShortStop,Outfield1,Outfield2,Outfield3,ContestDate,ContestName,ContestId,ContestFee,Winnings
+1,1063694523,footballjose1,137.35,Neil Walker,2B,42.65,9,Jameson Taillon,Jose Quintana,Austin Romine,Tyler Austin,Neil Walker,Rafael Devers,Carlos Correa,Aaron Judge,Marwin Gonzalez,Jose Martinez,20180408,warning_track,55185317,150,2000
+2,1063709942,Moneyndabox,132.2,Luke Weaver,P,41.18,23.85,Charlie Morton,Jose Quintana,Jesus Sucre,Mitch Moreland,Neil Walker,Kris Bryant,Daniel Robertson,Andrew Benintendi,Gregory Polanco,Corey Dickerson,20180408,warning_track,55185317,150,1250
+3,1063697334,papalucia,119.9,Kris Bryant,3B,36.76,0,Jameson Taillon,Eduardo Rodriguez,Willson Contreras,Marwin Gonzalez,Ben Zobrist,Alex Bregman,Ketel Marte,George Springer,A.J. Pollock,Jesse Winker,20180408,warning_track,55185317,150,750
+4,1063686039,Madindian1,119.2,Giancarlo Stanton,OF,33.82,0,Charlie Morton,Taijuan Walker,Austin Romine,Neil Walker,Cesar Hernandez,Maikel Franco,Adeiny Hechavarria,Rhys Hoskins,Aaron Judge,Odubel Herrera,20180408,warning_track,55185317,150,750
+5,1063603885,Awesemo,114.55,Willson Contreras,C,30.88,15,Charlie Morton,Luke Weaver,Victor Caratini,Tyler Austin,Neil Walker,Kris Bryant,Ronald Torreyes,Giancarlo Stanton,Aaron Judge,Ben Zobrist,20180408,warning_track,55185317,150,500
+5,1063605178,BirdWings,114.55,Aaron Judge,OF,27.94,12,Charlie Morton,Luke Weaver,Victor Caratini,Tyler Austin,Neil Walker,Alex Bregman,Carlos Correa,Aaron Judge,Josh Reddick,Michael Brantley,20180408,warning_track,55185317,150,500
+7,1063692130,tj4ua,113.55,Jordan Montgomery,P,26.47,2.55,Jose Quintana,Eduardo Rodriguez,Willson Contreras,Neil Walker,Ben Zobrist,Miguel Andujar,Addison Russell,Giancarlo Stanton,Aaron Judge,Brett Gardner,20180408,warning_track,55185317,150,500
+8,1063685078,joshjosephs7,112.7,Carlos Correa,SS,25,0,Jameson Taillon,Luke Weaver,Victor Caratini,Edwin Encarnacion,Neil Walker,Miguel Andujar,Carlos Correa,Giancarlo Stanton,Aaron Judge,Brett Gardner,20180408,warning_track,55185317,150,350
+9,1063666369,dandydon,108.55,Michael Brantley,OF,25,5,Charlie Morton,Luke Weaver,Willson Contreras,Trey Mancini,Ben Zobrist,Kris Bryant,Addison Russell,Aaron Judge,Albert Almora,Dexter Fowler,20180408,warning_track,55185317,150,350
+10,1063677516,ehafner,106.05,Jose Quintana,P,25,26.5,Jose Quintana,Reynaldo Lopez,Willson Contreras,Neil Walker,Ben Zobrist,Kris Bryant,Addison Russell,Giancarlo Stanton,Brett Gardner,Albert Almora,20180408,warning_track,55185317,150,350
+11,1063616173,Seaweed81,104.55,Charlie Morton,P,23.53,26.7,Charlie Morton,Luke Weaver,Yan Gomes,Ryan Braun,Cesar Hernandez,Maikel Franco,Ronald Torreyes,Rhys Hoskins,Lorenzo Cain,Domingo Santana,20180408,warning_track,55185317,150,350
+12,1063571763,noodles28,103.7,Francisco Lindor,SS,23.53,0,Jameson Taillon,Luke Weaver,Welington Castillo,Carlos Santana,Eduardo Nunez,Rafael Devers,Xander Bogaerts,J.D. Martinez,Lorenzo Cain,Avisail Garcia,20180408,warning_track,55185317,150,350
+13,1063681065,NickDiesel316,102.5,Brett Gardner,OF,22.06,8,Jake Arrieta,Jose Quintana,Austin Hedges,Edwin Encarnacion,Neil Walker,Matt Duffy,Daniel Robertson,Giancarlo Stanton,Aaron Judge,Kevin Kiermaier,20180408,warning_track,55185317,150,250
+14,1063553216,ineedmoney23,97.55,Jose Ramirez,2B,20.59,4,Charlie Morton,Luke Weaver,Manny Pina,Mitch Moreland,Neil Walker,Jace Peterson,Xander Bogaerts,Giancarlo Stanton,Aaron Judge,Brett Gardner,20180408,warning_track,55185317,150,250
+15,1063618903,Seaweed81,97.4,Reynaldo Lopez,P,17.65,21.55,Reynaldo Lopez,Luke Weaver,Yan Gomes,Marwin Gonzalez,Jose Altuve,Jose Ramirez,Carlos Correa,George Springer,Josh Reddick,Michael Brantley,20180408,warning_track,55185317,150,250
+15,1063675925,marcf,97.39999,Ben Zobrist,OF,16.18,17,Jameson Taillon,Reynaldo Lopez,Welington Castillo,Jose Abreu,Neil Walker,Jose Ramirez,Francisco Lindor,Aaron Judge,Avisail Garcia,Nicky Delmonico,20180408,warning_track,55185317,150,250
+17,1063685094,joshjosephs7,96.85,Domingo Santana,OF,16.18,2,Jake Arrieta,Luke Weaver,Evan Gattis,Tyler Austin,Neil Walker,Miguel Andujar,Carlos Correa,Giancarlo Stanton,Mookie Betts,Brett Gardner,20180408,warning_track,55185317,150,250
+18,1063695833,crclngthdrn,96.7,Alex Bregman,3B,16.18,0,Jameson Taillon,Luke Weaver,Welington Castillo,Matt Davidson,Jason Kipnis,Maikel Franco,Xander Bogaerts,Rhys Hoskins,Brett Gardner,Michael Brantley,20180408,warning_track,55185317,150,0
+19,1063606949,cewrazen,96.55,Jake Arrieta,P,16.18,12,Charlie Morton,Jameson Taillon,Victor Caratini,Matt Carpenter,Neil Walker,Kris Bryant,Manny Machado,Marcell Ozuna,Tommy Pham,Dexter Fowler,20180408,warning_track,55185317,150,0
+20,1063685049,sidewinder,96.25,Jason Kipnis,2B,14.71,0,Charlie Morton,Reynaldo Lopez,Manny Pina,Marwin Gonzalez,Neil Walker,Daniel Descalso,Carlos Correa,Aaron Judge,Brett Gardner,Corey Dickerson,20180408,warning_track,55185317,150,0
+21,1063668742,Moneyndabox,96.2,Victor Caratini,C,14.71,5,Charlie Morton,Taijuan Walker,Andrew Knapp,Miguel Cabrera,Neil Walker,Kris Bryant,Manny Machado,Gregory Polanco,Corey Dickerson,Jesse Winker,20180408,warning_track,55185317,150,0
+22,1063699880,FJH3,95.35,Jameson Taillon,P,13.24,40.85,Jose Quintana,Luke Weaver,Victor Caratini,Neil Walker,Jose Altuve,Jose Ramirez,Francisco Lindor,George Springer,Josh Reddick,Michael Brantley,20180408,warning_track,55185317,150,0
+23,1063667794,BraveCowboy,95,Ryan Braun,1B,13.24,0,Jose Quintana,Mike Fiers,Yadier Molina,Yonder Alonso,Jonathan Schoop,Manny Machado,Francisco Lindor,Rhys Hoskins,George Springer,Trey Mancini,20180408,warning_track,55185317,150,0
+24,1063658699,FJH3,91.35,Jose Altuve,2B,13.24,0,Jose Quintana,Luke Weaver,Victor Caratini,Jose Abreu,Neil Walker,Jose Ramirez,Francisco Lindor,Giancarlo Stanton,Mookie Betts,Michael Brantley,20180408,warning_track,55185317,150,0
+25,1063711280,andersont,85.85,George Springer,OF,13.24,3,Jake Arrieta,Luke Weaver,Victor Caratini,Mitch Moreland,Jose Ramirez,Alex Bregman,Eduardo Nunez,Mookie Betts,J.D. Martinez,Andrew Benintendi,20180408,warning_track,55185317,150,0
+26,1063584700,delongjn414,85.14999,Rhys Hoskins,OF,13.24,11,Mike Clevinger,Jameson Taillon,John Hicks,Miguel Cabrera,Neil Walker,Jeimer Candelario,Xander Bogaerts,Nicholas Castellanos,Leonys Martin,Hernan Perez,20180408,warning_track,55185317,150,0
+27,1063672699,scout326,84.5,Xander Bogaerts,SS,11.76,3,Jake Arrieta,Jose Quintana,Austin Romine,Yonder Alonso,Jace Peterson,Jose Ramirez,Francisco Lindor,Giancarlo Stanton,Michael Brantley,Bradley Zimmer,20180408,warning_track,55185317,150,0
+28,1063710714,JBP126,84.15,Welington Castillo,C,11.76,0,Mike Clevinger,Luke Weaver,Yan Gomes,Yonder Alonso,Jason Kipnis,Maikel Franco,Francisco Lindor,Rhys Hoskins,Michael Brantley,Nick Williams,20180408,warning_track,55185317,150,0
+29,1063677515,ehafner,82.55,Addison Russell,SS,11.76,0,Jake Arrieta,Reynaldo Lopez,Willson Contreras,Jose Abreu,Yoan Moncada,Kris Bryant,Addison Russell,Avisail Garcia,Ben Zobrist,Albert Almora,20180408,warning_track,55185317,150,0
+29,1063703588,nswodeck,82.55,J.D. Martinez,OF,10.29,0,Charlie Morton,Luke Weaver,Victor Caratini,Jose Abreu,Neil Walker,Alex Bregman,Manny Machado,Giancarlo Stanton,Avisail Garcia,Domingo Santana,20180408,warning_track,55185317,150,0
+31,1063679823,ChipotleAddict,82,Eduardo Rodriguez,P,10.29,12.05,Jose Quintana,Mike Fiers,Willson Contreras,Paul Goldschmidt,Jason Kipnis,Kris Bryant,Francisco Lindor,Kyle Schwarber,Michael Brantley,Bradley Zimmer,20180408,warning_track,55185317,150,0
+32,1063656177,crclngthdrn,81.55,Mike Clevinger,P,10.29,15.3,Charlie Morton,Luke Weaver,Willson Contreras,Daniel Descalso,Jason Kipnis,Kris Bryant,Xander Bogaerts,Brett Gardner,Michael Brantley,Dexter Fowler,20180408,warning_track,55185317,150,0
+33,1063614994,moklovin,81.35,Maikel Franco,3B,10.29,3,Jose Quintana,Luke Weaver,Willson Contreras,Neil Walker,Jason Kipnis,Kris Bryant,Francisco Lindor,Giancarlo Stanton,Michael Brantley,Domingo Santana,20180408,warning_track,55185317,150,0
+34,1063648374,klennon70,79.39999,Jose Abreu,1B,10.29,2,Jameson Taillon,Reynaldo Lopez,Welington Castillo,Carlos Santana,Jose Altuve,Christian Villanueva,Manny Machado,J.D. Martinez,Tommy Pham,Nick Williams,20180408,warning_track,55185317,150,0
+35,1063697291,jmoskal88,78.55,Edwin Encarnacion,1B,8.82,0,Charlie Morton,Luke Weaver,Yadier Molina,Matt Carpenter,Yolmer Sanchez,Matt Davidson,Ronald Torreyes,Aaron Judge,J.D. Martinez,Jose Martinez,20180408,warning_track,55185317,150,0
+36,1063584371,papagates,77,Carlos Santana,1B,8.82,2,Jose Quintana,Mike Fiers,Willson Contreras,Edwin Encarnacion,Jason Kipnis,Kris Bryant,Francisco Lindor,Kyle Schwarber,Billy Hamilton,Bradley Zimmer,20180408,warning_track,55185317,150,0
+37,1063650913,CoachS111,74.7,Avisail Garcia,OF,8.82,6,Charlie Morton,Jake Arrieta,Evan Gattis,Mitch Moreland,Neil Walker,Jace Peterson,Carlos Correa,Aaron Judge,Dexter Fowler,Leury Garcia,20180408,warning_track,55185317,150,0
+38,1063698813,lane,74.1,Kyle Schwarber,OF,8.82,0,Reynaldo Lopez,Jordan Montgomery,Willson Contreras,Ryan Braun,Ben Zobrist,Kris Bryant,Addison Russell,Aaron Judge,Kyle Schwarber,Lorenzo Cain,20180408,warning_track,55185317,150,0
+39,1063612291,EmpireMaker2,73.9,Dexter Fowler,OF,8.82,0,Eduardo Rodriguez,Luke Weaver,Willson Contreras,Neil Walker,Jason Kipnis,Alex Bregman,Francisco Lindor,Giancarlo Stanton,Aaron Judge,Domingo Santana,20180408,warning_track,55185317,150,0
+40,1063603884,Awesemo,73.5,Andrew Knapp,C,8.82,3,Jake Arrieta,Jose Quintana,Andrew Knapp,Carlos Santana,Jason Kipnis,Jose Ramirez,J.P. Crawford,Rhys Hoskins,Odubel Herrera,Tyler Naquin,20180408,warning_track,55185317,150,0
+41,1063673265,GlennerationX,73.05,Mookie Betts,OF,8.82,16,Tyler Mahle,Reynaldo Lopez,Willson Contreras,Jose Martinez,Neil Walker,Miguel Andujar,Xander Bogaerts,Giancarlo Stanton,Aaron Judge,J.D. Martinez,20180408,warning_track,55185317,150,0
+41,1063696386,CJAX-DET,73.05,Lorenzo Cain,OF,7.35,6,Jordan Montgomery,Mike Fiers,Yadier Molina,Hanley Ramirez,Cesar Hernandez,Alex Bregman,Carlos Correa,Mookie Betts,J.D. Martinez,Nicholas Castellanos,20180408,warning_track,55185317,150,0
+43,1063710268,mister.liemtran,72.5,Odubel Herrera,OF,7.35,12,Jake Arrieta,Jose Quintana,Christian Vazquez,Neil Walker,Jose Altuve,Alex Bregman,Ketel Marte,George Springer,Adam Duvall,Niko Goodrum,20180408,warning_track,55185317,150,0
+44,1063553303,tfamularo,72.4,Joey Votto,1B,7.35,0,Jordan Montgomery,Luke Weaver,Willson Contreras,Edwin Encarnacion,Neil Walker,Kris Bryant,Carlos Correa,Giancarlo Stanton,Michael Brantley,Ben Zobrist,20180408,warning_track,55185317,150,0
+45,1063627204,BarOfSoap,70,Bradley Zimmer,OF,7.35,9,Charlie Morton,Mike Clevinger,Andrew Knapp,Jose Abreu,Yoan Moncada,Maikel Franco,J.P. Crawford,Avisail Garcia,Odubel Herrera,Nicky Delmonico,20180408,warning_track,55185317,150,0
+46,1063694907,steamroller6,69.8,Tyler Austin,1B,7.35,14,Mike Clevinger,Tyler Mahle,Yan Gomes,Edwin Encarnacion,Cesar Hernandez,Maikel Franco,J.P. Crawford,Rhys Hoskins,Michael Brantley,Odubel Herrera,20180408,warning_track,55185317,150,0
+47,1063582801,tenaciousdjones,68.3,Manny Machado,SS,7.35,8,Mike Clevinger,Jake Arrieta,Willson Contreras,Joey Votto,Ben Zobrist,Kris Bryant,Jose Peraza,Albert Almora,Billy Hamilton,Jesse Winker,20180408,warning_track,55185317,150,0
+48,1063575499,smccarty,66.25,Mitch Moreland,1B,5.88,9,Charlie Morton,Jordan Montgomery,Evan Gattis,Carlos Santana,Jose Ramirez,Jace Peterson,Carlos Correa,Brett Gardner,Michael Brantley,Odubel Herrera,20180408,warning_track,55185317,150,0
+49,1063584370,papagates,64.5,Jace Peterson,3B,5.88,6,Jake Arrieta,Jose Quintana,Willson Contreras,Joey Votto,Scooter Gennett,Kris Bryant,Jose Peraza,Kyle Schwarber,Billy Hamilton,Bradley Zimmer,20180408,warning_track,55185317,150,0
+50,1063710861,clark735,63.4,Evan Gattis,C,5.88,0,Jordan Montgomery,Luke Weaver,Yadier Molina,Neil Walker,Jose Altuve,Alex Bregman,Carlos Correa,Aaron Judge,George Springer,Brett Gardner,20180408,warning_track,55185317,150,0
+51,1063702663,rex21023,62.9,Albert Almora Jr.,OF,5.88,9,Eduardo Rodriguez,Luke Weaver,Victor Caratini,Jose Abreu,Neil Walker,Kris Bryant,Carlos Correa,Giancarlo Stanton,George Springer,Brett Gardner,20180408,warning_track,55185317,150,0
+52,1063672698,scout326,61.35,Mike Fiers,P,5.88,26.5,Jose Quintana,Luke Weaver,Welington Castillo,Jose Abreu,Jose Altuve,Alex Bregman,Carlos Correa,George Springer,Avisail Garcia,Leury Garcia,20180408,warning_track,55185317,150,0
+53,1063676620,36ryno,60.05,Josh Reddick,OF,5.88,19,Jose Quintana,Jordan Montgomery,Welington Castillo,Yonder Alonso,Neil Walker,Jose Ramirez,Francisco Lindor,Giancarlo Stanton,Brett Gardner,Michael Brantley,20180408,warning_track,55185317,150,0
+54,1063711513,cmc1621,59.6,Cesar Hernandez,2B,5.88,9,Eduardo Rodriguez,Jordan Montgomery,Andrew Knapp,Joey Votto,Neil Walker,Maikel Franco,Xander Bogaerts,Rhys Hoskins,Mookie Betts,J.D. Martinez,20180408,warning_track,55185317,150,0
+55,1063572922,wakeywakey,58.1,Yan Gomes,C,5.88,16,Reynaldo Lopez,Jordan Montgomery,Willson Contreras,Ryan Braun,Ben Zobrist,Kris Bryant,Addison Russell,Giancarlo Stanton,Kyle Schwarber,Domingo Santana,20180408,warning_track,55185317,150,0
+56,1063690005,kwilson11,57.85,Marwin Gonzalez,1B,5.88,5,Mike Clevinger,Jordan Montgomery,Willson Contreras,Jose Martinez,Ben Zobrist,Kris Bryant,Addison Russell,Lorenzo Cain,Ryan Braun,Domingo Santana,20180408,warning_track,55185317,150,0
+57,1063594032,gridironguru999,56.4,Yonder Alonso,1B,5.88,5,Jordan Montgomery,Luke Weaver,Welington Castillo,Tyler Austin,Jose Ramirez,Kris Bryant,Francisco Lindor,Giancarlo Stanton,Aaron Judge,Dexter Fowler,20180408,warning_track,55185317,150,0
+58,1063586035,stalls18,55.1,Yadier Molina,C,5.88,5,Reynaldo Lopez,Jordan Montgomery,Evan Gattis,Ryan Braun,Jose Altuve,Matt Davidson,Carlos Correa,Josh Reddick,Brett Gardner,Domingo Santana,20180408,warning_track,55185317,150,0
+59,1063665748,da1andonlybc,54.4,Jose Martinez,1B,5.88,0,Jordan Montgomery,Luke Weaver,Willson Contreras,Joey Votto,Jason Kipnis,Kris Bryant,Francisco Lindor,Giancarlo Stanton,Brett Gardner,Michael Brantley,20180408,warning_track,55185317,150,0
+60,1063605130,mrgoodseats,52.4,Miguel Andujar,3B,5.88,14,Jordan Montgomery,Luke Weaver,Willson Contreras,Joey Votto,Jose Ramirez,Kris Bryant,Francisco Lindor,Giancarlo Stanton,Michael Brantley,Domingo Santana,20180408,warning_track,55185317,150,0
+60,1063605154,mrgoodseats,52.4,Manny Pina,C,4.41,0,Jordan Montgomery,Luke Weaver,Willson Contreras,Ryan Braun,Jose Ramirez,Kris Bryant,Francisco Lindor,Giancarlo Stanton,Michael Brantley,Domingo Santana,20180408,warning_track,55185317,150,0
+62,1063701922,dpcollects,51.4,Billy Hamilton,OF,4.41,0,Jordan Montgomery,Luke Weaver,Andrew Knapp,Carlos Santana,Jose Ramirez,Kris Bryant,Carlos Correa,Giancarlo Stanton,Mookie Betts,Dexter Fowler,20180408,warning_track,55185317,150,0
+63,1063609513,elstan11,51.05,Jesse Winker,OF,4.41,0,Tyler Mahle,Reynaldo Lopez,Andrew Knapp,Carlos Santana,Jose Altuve,Alex Bregman,Xander Bogaerts,Rhys Hoskins,Andrew Benintendi,Nick Williams,20180408,warning_track,55185317,150,0
+64,1063679824,ChipotleAddict,42.55,Matt Davidson,3B,4.41,2,Jake Arrieta,Jordan Montgomery,Willson Contreras,Ryan Braun,Jonathan Villar,Kris Bryant,Addison Russell,Kyle Schwarber,Lorenzo Cain,Domingo Santana,20180408,warning_track,55185317,150,0
+65,1063637085,chrishoops,41.85,J.P. Crawford,SS,4.41,0,Mike Clevinger,Jordan Montgomery,Welington Castillo,Edwin Encarnacion,Jason Kipnis,Jose Ramirez,Francisco Lindor,Brett Gardner,Derek Fisher,Bradley Zimmer,20180408,warning_track,55185317,150,0
+66,1063572935,wakeywakey,40.6,Ronald Torreyes,SS,4.41,7,Eduardo Rodriguez,Reynaldo Lopez,Manny Pina,Jesus Aguilar,Jose Altuve,Alex Bregman,Carlos Correa,George Springer,Ryan Braun,Domingo Santana,20180408,warning_track,55185317,150,0
+67,1063711675,McGhee24,35.6,Tyler Mahle,P,4.41,-1.5,Eduardo Rodriguez,Jordan Montgomery,Victor Caratini,Jesus Aguilar,Scooter Gennett,Kris Bryant,Carlos Correa,Giancarlo Stanton,Aaron Judge,Ryan Braun,20180408,warning_track,55185317,150,0
+68,1063672798,burnie4488,0,Andrew Benintendi,OF,4.41,7,NA,NA,NA,NA,NA,NA,NA,nan,NA,NA,20180408,warning_track,55185317,150,0
+0,0,NA,0,Nick Williams,OF,4.41,5,NA,NA,NA,NA,NA,NA,NA,nan,NA,NA,20180408,warning_track,55185317,150,0
+0,0,NA,0,Corey Dickerson,OF,4.41,14,NA,NA,NA,NA,NA,NA,NA,nan,NA,NA,20180408,warning_track,55185317,150,0
+0,0,NA,0,Austin Romine,C,4.41,17,NA,NA,NA,NA,NA,NA,NA,nan,NA,NA,20180408,warning_track,55185317,150,0
+0,0,NA,0,Rafael Devers,3B,2.94,13,NA,NA,NA,NA,NA,NA,NA,nan,NA,NA,20180408,warning_track,55185317,150,0
+0,0,NA,0,Eduardo Nunez,2B,2.94,9,NA,NA,NA,NA,NA,NA,NA,nan,NA,NA,20180408,warning_track,55185317,150,0
+0,0,NA,0,Jesus Aguilar,1B,2.94,2,NA,NA,NA,NA,NA,NA,NA,nan,NA,NA,20180408,warning_track,55185317,150,0
+0,0,NA,0,Jose Peraza,SS,2.94,0,NA,NA,NA,NA,NA,NA,NA,nan,NA,NA,20180408,warning_track,55185317,150,0
+0,0,NA,0,Scooter Gennett,2B,2.94,2,NA,NA,NA,NA,NA,NA,NA,nan,NA,NA,20180408,warning_track,55185317,150,0
+0,0,NA,0,Nicholas Castellanos,OF,2.94,0,NA,NA,NA,NA,NA,NA,NA,nan,NA,NA,20180408,warning_track,55185317,150,0
+0,0,NA,0,Miguel Cabrera,1B,2.94,2,NA,NA,NA,NA,NA,NA,NA,nan,NA,NA,20180408,warning_track,55185317,150,0
+0,0,NA,0,Tommy Pham,OF,2.94,2,NA,NA,NA,NA,NA,NA,NA,nan,NA,NA,20180408,warning_track,55185317,150,0
+0,0,NA,0,Matt Carpenter,1B,2.94,2,NA,NA,NA,NA,NA,NA,NA,nan,NA,NA,20180408,warning_track,55185317,150,0
+0,0,NA,0,Yoan Moncada,2B,2.94,0,NA,NA,NA,NA,NA,NA,NA,nan,NA,NA,20180408,warning_track,55185317,150,0
+0,0,NA,0,Nicky Delmonico,OF,2.94,2,NA,NA,NA,NA,NA,NA,NA,nan,NA,NA,20180408,warning_track,55185317,150,0
+0,0,NA,0,Leury Garcia,OF,2.94,0,NA,NA,NA,NA,NA,NA,NA,nan,NA,NA,20180408,warning_track,55185317,150,0
+0,0,NA,0,Daniel Descalso,1B,2.94,0,NA,NA,NA,NA,NA,NA,NA,nan,NA,NA,20180408,warning_track,55185317,150,0
+0,0,NA,0,Trey Mancini,1B,2.94,5,NA,NA,NA,NA,NA,NA,NA,nan,NA,NA,20180408,warning_track,55185317,150,0
+0,0,NA,0,Taijuan Walker,P,2.94,14.5,NA,NA,NA,NA,NA,NA,NA,nan,NA,NA,20180408,warning_track,55185317,150,0
+0,0,NA,0,Gregory Polanco,OF,2.94,19,NA,NA,NA,NA,NA,NA,NA,nan,NA,NA,20180408,warning_track,55185317,150,0
+0,0,NA,0,Daniel Robertson,SS,2.94,19,NA,NA,NA,NA,NA,NA,NA,nan,NA,NA,20180408,warning_track,55185317,150,0
+0,0,NA,0,Ketel Marte,SS,2.94,3,NA,NA,NA,NA,NA,NA,NA,nan,NA,NA,20180408,warning_track,55185317,150,0
+0,0,NA,0,Jeimer Candelario,3B,1.47,0,NA,NA,NA,NA,NA,NA,NA,nan,NA,NA,20180408,warning_track,55185317,150,0
+0,0,NA,0,Leonys Martin,OF,1.47,15,NA,NA,NA,NA,NA,NA,NA,nan,NA,NA,20180408,warning_track,55185317,150,0
+0,0,NA,0,John Hicks,C,1.47,0,NA,NA,NA,NA,NA,NA,NA,nan,NA,NA,20180408,warning_track,55185317,150,0
+0,0,NA,0,Hernan Perez,OF,1.47,0,NA,NA,NA,NA,NA,NA,NA,nan,NA,NA,20180408,warning_track,55185317,150,0
+0,0,NA,0,Tyler Naquin,OF,1.47,3,NA,NA,NA,NA,NA,NA,NA,nan,NA,NA,20180408,warning_track,55185317,150,0
+0,0,NA,0,Marcell Ozuna,OF,1.47,3,NA,NA,NA,NA,NA,NA,NA,nan,NA,NA,20180408,warning_track,55185317,150,0
+0,0,NA,0,Derek Fisher,OF,1.47,3,NA,NA,NA,NA,NA,NA,NA,nan,NA,NA,20180408,warning_track,55185317,150,0
+0,0,NA,0,Christian Villanueva,3B,1.47,0,NA,NA,NA,NA,NA,NA,NA,nan,NA,NA,20180408,warning_track,55185317,150,0
+0,0,NA,0,Jonathan Schoop,2B,1.47,5,NA,NA,NA,NA,NA,NA,NA,nan,NA,NA,20180408,warning_track,55185317,150,0
+0,0,NA,0,Paul Goldschmidt,1B,1.47,0,NA,NA,NA,NA,NA,NA,NA,nan,NA,NA,20180408,warning_track,55185317,150,0
+0,0,NA,0,Jonathan Villar,2B,1.47,5,NA,NA,NA,NA,NA,NA,NA,nan,NA,NA,20180408,warning_track,55185317,150,0
+0,0,NA,0,Matt Duffy,3B,1.47,10,NA,NA,NA,NA,NA,NA,NA,nan,NA,NA,20180408,warning_track,55185317,150,0
+0,0,NA,0,Kevin Kiermaier,OF,1.47,12,NA,NA,NA,NA,NA,NA,NA,nan,NA,NA,20180408,warning_track,55185317,150,0
+0,0,NA,0,Austin Hedges,C,1.47,2,NA,NA,NA,NA,NA,NA,NA,nan,NA,NA,20180408,warning_track,55185317,150,0
+0,0,NA,0,Adeiny Hechavarria,SS,1.47,5,NA,NA,NA,NA,NA,NA,NA,nan,NA,NA,20180408,warning_track,55185317,150,0
+0,0,NA,0,Hanley Ramirez,1B,1.47,14,NA,NA,NA,NA,NA,NA,NA,nan,NA,NA,20180408,warning_track,55185317,150,0
+0,0,NA,0,Yolmer Sanchez,2B,1.47,0,NA,NA,NA,NA,NA,NA,NA,nan,NA,NA,20180408,warning_track,55185317,150,0
+0,0,NA,0,A.J. Pollock,OF,1.47,24,NA,NA,NA,NA,NA,NA,NA,nan,NA,NA,20180408,warning_track,55185317,150,0
+0,0,NA,0,Jesus Sucre,C,1.47,2,NA,NA,NA,NA,NA,NA,NA,nan,NA,NA,20180408,warning_track,55185317,150,0
+0,0,NA,0,Adam Duvall,OF,1.47,0,NA,NA,NA,NA,NA,NA,NA,nan,NA,NA,20180408,warning_track,55185317,150,0
+0,0,NA,0,Christian Vazquez,C,1.47,10,NA,NA,NA,NA,NA,NA,NA,nan,NA,NA,20180408,warning_track,55185317,150,0
+0,0,NA,0,Niko Goodrum,OF,1.47,9,NA,NA,NA,NA,NA,NA,NA,nan,NA,NA,20180408,warning_track,55185317,150,0
