@@ -6,15 +6,18 @@ import os
 import teamlib
 
 
-game_date = 20180412
+game_date = 20180414
 
 ####################    DO NOT CHANGE BELOW THIS LINE  ###########################
 
-downloads = '/Users/chrismccallan/Downloads'
+#path to file directory - HOME
 # formats = ('/Users/Chris/Desktop/Statis/MLB/2018/formats/')
+
+#path to file directory - WORK
+downloads = '/Users/chrismccallan/Downloads'
 formats = ('/Users/chrismccallan/Downloads')
 
-ifile  = os.path.join(downloads, 'raw_projections_%d.csv' % (game_date))
+ifile  = os.path.join(downloads, 'dk_mlb_raw_projections_%d.csv' % (game_date))
 ofile  = os.path.join(formats, 'dk_mlb_projection_comparison_upload_%d.csv' % (game_date))
 ofile  = open(ofile, 'w')
 writer = csv.writer(ofile)

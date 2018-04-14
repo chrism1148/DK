@@ -4,21 +4,22 @@ import csv
 import os
 
 
-game_date = 20180410
+game_date = 20180414
 
 
 ################################## START OF NO CHANGE POLICY ##############################
 
-#path to file directory
-lineup_path        = ('/Users/Chris/Desktop/Statis/MLB/2018/formatted_lineups/')
-projection_path    = ('/Users/Chris/Desktop/Statis/MLB/2018/formatted_projections/')
+#path to file directory - HOME
+# lineup_path        = ('/Users/Chris/Desktop/Statis/MLB/2018/formatted_lineups/')
+# projection_path    = ('/Users/Chris/Desktop/Statis/MLB/2018/formatted_projections/')
+
+#path to file directory - WORK
+lineup_path        = ('/Users/chrismccallan/downloads/')
+projection_path    = ('/Users/chrismccallan/downloads/')
 
 #load date specific files from path
-# ifile_1   = os.path.join(lineup_path, 'dk_mlb_lineup_comparison_upload_%d.csv' % (game_date))
-# ifile_2   = os.path.join(projection_path, 'dk_mlb_projection_comparison_upload_%d.csv' % (game_date))
-
-ifile_1   = ('dk_mlb_lineup_comparison_upload_%d.csv' % (game_date))
-ifile_2   = ('dk_mlb_projection_comparison_upload_%d.csv' % (game_date))
+ifile_1   = os.path.join(lineup_path, 'dk_mlb_lineup_comparison_upload_%d.csv' % (game_date))
+ifile_2   = os.path.join(projection_path, 'dk_mlb_projection_comparison_upload_%d.csv' % (game_date))
 
 # read files to dataframe for formatting
 lineups = pd.read_csv(ifile_1)
@@ -209,4 +210,4 @@ lineup_results['lineup_dfs_guru_proj'] = pitcher_1_dfs_guru + pitcher_2_dfs_guru
 lineup_results['lineup_last_5_proj'] = pitcher_1_last_5 + pitcher_2_last_5 + catcher_last_5 + first_base_last_5 + second_base_last_5 + third_base_last_5 + short_stop_last_5 + outfield_1_last_5 + outfield_2_last_5 + outfield_3_last_5
 lineup_results['lineup_season_proj'] = pitcher_1_season + pitcher_2_season + catcher_season + first_base_season + second_base_season + third_base_season + short_stop_season + outfield_1_season + outfield_2_season + outfield_3_season
 
-lineup_results.to_csv('dk_mlb_lineup_results_%d.csv' % (game_date))
+lineup_results.to_csv('dk_mlb_lineup_results_%d.csv' % (game_date), index=False)
