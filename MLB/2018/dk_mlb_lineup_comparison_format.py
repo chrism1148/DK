@@ -8,7 +8,7 @@ import os
 
 ####################    DO NOT CHANGE BELOW THIS LINE  ###########################
 
-game_date = 20180410
+game_date = 20180411
 
 downloads = '/Users/chrismccallan/Downloads'
 # formats = ('/Users/Chris/Desktop/Statis/MLB/2018/formats/')
@@ -27,23 +27,22 @@ with open(ifile, 'r') as csvfile:
 	# next(reader)
 
 	for row in reader:
-		game_date         = row[0]
-		lineup_source     = re.sub(r'\s\(.*?\)\s\s\S\d{1,}', '', row[1])
+		game_date         = game_date
+		lineup_source     = re.sub(r'\s\(.*?\)\s\s\S\d{1,}', '', row[0])
 		lineup_source     = re.sub(r'\s[A-Z]{3}/[A-Z]{3}/[A-Z]{3}\s\s\S\d{1,}', '', lineup_source)
 		lineup_source     = re.sub(r'\s[A-Z]{3}\s\s\S\d{1,}', '', lineup_source)
-		pitcher_1         = re.sub(r'\s\(.*?\)', '', row[2])
-		pitcher_2         = re.sub(r'\s\(.*?\)', '', row[3])
-		catcher           = re.sub(r'\s\(.*?\)', '', row[4])
-		first_base        = re.sub(r'\s\(.*?\)', '', row[5])
-		second_base       = re.sub(r'\s\(.*?\)', '', row[6])
-		third_base        = re.sub(r'\s\(.*?\)', '', row[7])
-		short_stop        = re.sub(r'\s\(.*?\)', '', row[8])
-		outfield_1        = re.sub(r'\s\(.*?\)', '', row[9])
-		outfield_2        = re.sub(r'\s\(.*?\)', '', row[10])
-		outfield_3        = re.sub(r'\s\(.*?\)', '', row[11])
-		lineup_salary     = row[12]
+		pitcher_1         = re.sub(r'\s\(.*?\)', '', row[1])
+		pitcher_2         = re.sub(r'\s\(.*?\)', '', row[2])
+		catcher           = re.sub(r'\s\(.*?\)', '', row[3])
+		first_base        = re.sub(r'\s\(.*?\)', '', row[4])
+		second_base       = re.sub(r'\s\(.*?\)', '', row[5])
+		third_base        = re.sub(r'\s\(.*?\)', '', row[6])
+		short_stop        = re.sub(r'\s\(.*?\)', '', row[7])
+		outfield_1        = re.sub(r'\s\(.*?\)', '', row[8])
+		outfield_2        = re.sub(r'\s\(.*?\)', '', row[9])
+		outfield_3        = re.sub(r'\s\(.*?\)', '', row[10])
+		lineup_salary     = row[11]
 	
 
 		output = (game_date, lineup_source, pitcher_1, pitcher_2, catcher, first_base, second_base, third_base, short_stop, outfield_1, outfield_2, outfield_3, lineup_salary)
 		writer.writerows([output])
-
