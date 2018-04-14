@@ -16,7 +16,7 @@ formats = ('/Users/Chris/Desktop/Statis/MLB/2018/formats/')
 # formats = ('/Users/chrismccallan/Downloads')
 
 ifile  = os.path.join(downloads, 'csv2.csv')
-ofile  = os.path.join(formats, 'dk_mlb_projection_comparision_upload_%d.csv' % (game_date))
+ofile  = os.path.join(formats, 'dk_mlb_projection_comparison_upload_%d.csv' % (game_date))
 ofile  = open(ofile, 'w')
 writer = csv.writer(ofile)
 
