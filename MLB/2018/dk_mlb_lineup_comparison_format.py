@@ -8,7 +8,7 @@ import os
 
 ####################    DO NOT CHANGE BELOW THIS LINE  ###########################
 
-game_date = 20180411
+game_date = 20180412
 
 downloads = '/Users/chrismccallan/Downloads'
 # formats = ('/Users/Chris/Desktop/Statis/MLB/2018/formats/')
@@ -16,8 +16,8 @@ formats = ('/Users/chrismccallan/Downloads')
 regex = re.compile(".*?\((0-9)\)")
 
 
-ifile  = os.path.join(downloads, 'csv1.csv')
-ofile  = os.path.join(formats, 'dk_mlb_lineup_comparision_upload_%d.csv' % (game_date))
+ifile  = os.path.join(downloads, 'raw_lineups_%d.csv' % (game_date))
+ofile  = os.path.join(formats, 'dk_mlb_lineup_comparison_upload_%d.csv' % (game_date))
 ofile  = open(ofile, 'w')
 writer = csv.writer(ofile)
 
