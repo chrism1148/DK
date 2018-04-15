@@ -4,22 +4,25 @@ import csv
 import os
 
 
-contest_date = 20180409
-contest_name = 'run_down'
-contest_entry_fee = 100
-contest_id = 55215839
+contest_date = 20180414
+contest_name = 'single_entry_saturday'
+contest_entry_fee = 400
+contest_id = 55367482
 
 
 
 ################################## START OF NO CHANGE POLICY ##############################
 
-formats = ('/Users/Chris/Desktop/Statis/MLB/2018/formats/%d' % (contest_date))
-uploads = ('/Users/Chris/Desktop/Statis/MLB/2018/uploads/%d' % (contest_date))
+#path to files - HOME
+# formats = ('/Users/Chris/Desktop/Statis/MLB/2018/formats/%d' % (contest_date))
+# uploads = ('/Users/Chris/Desktop/Statis/MLB/2018/uploads/%d' % (contest_date))
 
+ #path to files - WORK
+formats = ('/Users/chrismccallan/downloads/')
+uploads = ('/Users/chrismccallan/downloads/')
 
 ifile   = os.path.join(formats, 'dk_mlb_%s_%d_formatted.csv' % (contest_name, contest_date))
 ofile   = os.path.join(uploads, 'dk_mlb_%s_%d_upload.csv' % (contest_name, contest_date))
-
 
 data = pd.read_csv(ifile)
 data.columns = ['Rank', 'EntryId', 'EntryName', 'EntryPoints', 'Player', 'Position', 'PercentDrafted', 'PlayerPoints', 'Pitcher1', 'Pitcher2', 'Catcher', 'FirstBase', 'SecondBase', 'ThirdBase', 'ShortStop', 'Outfield'] #rename csv colums for proper pandas syntax
@@ -62,12 +65,11 @@ data['ContestFee']     = contest_entry_fee
 
 ################################## END OF NO CHANGE POLICY ##############################
 
-
-data['Winnings']             = 0
-data.loc[0:11, 'Winnings']   = [1500, 1000, 800, 700, 600, 500, 400, 400, 350, 350, 300, 300]
-data.loc[12:14, 'Winnings']  = 250
-data.loc[15:19, 'Winnings']  = 200
-data.loc[20:26, 'Winnings']  = 150
+data['Winnings']            = 0
+data.loc[0:17, 'Winnings']   = [5000, 3000, 2000, 2000, 1200, 1200, 1000, 1000, 1000, 900, 900, 900, 900, 800, 800, 800, 800, 800]
+# data.loc[12:14, 'Winnings']  = 250
+# data.loc[15:19, 'Winnings']  = 200
+# data.loc[20:26, 'Winnings']  = 150
 
 
 # data['Winnings']             = 0
@@ -81,6 +83,6 @@ data.loc[20:26, 'Winnings']  = 150
 # data.loc[69:98, 'Winnings']  = 800
 # data.loc[99:153, 'Winnings']  = 700
 
-print(data.iloc[108, data.columns.get_loc('Player')])
+# print(data.iloc[108, data.columns.get_loc('Player')])
 
 data.to_csv(ofile, index=None)
