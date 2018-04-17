@@ -1,0 +1,224 @@
+﻿Name,Team,Opp.,Position,Salary,my_proj
+Anthony Rizzo ,@CHC,STL,1B,4300,3.2
+Avisail Garcia ,CWS,@OAK,OF,3200,1.4
+Carlos Santana ,PHI,@ATL,1B,4000,4
+Carlos Tocci ,TEX,@TB,OF,2200,1
+Domingo Santana ,@MIL,CIN,OF,3000,4.6
+Jay Bruce ,@NYM,WSH,OF,3700,3.4
+Mark Canha ,@OAK,CWS,OF,2900,6.6
+Orlando Arcia ,@MIL,CIN,SS,2700,5.4
+Tommy Pham ,STL,@CHC,OF,4700,16
+Corey Kluber ,CLE,@MIN,P,12100,20.7
+David Price ,BOS,@LAA,P,10100,13.1
+Patrick Corbin ,@ARI,SF,P,9800,22
+Lance McCullers Jr. ,HOU,@SEA,P,9600,11.8
+Johnny Cueto O,SF,@ARI,P,8800,15.2
+Gio Gonzalez ,WSH,@NYM,P,8500,16
+Nick Pivetta ,PHI,@ATL,P,8400,21.1
+Alex Wood ,LAD,@SD,P,8200,13.4
+Tyler Chatwood ,@CHC,STL,P,8000,8
+Zack Wheeler ,@NYM,WSH,P,7700,14.3
+Mike Foltynewicz ,@ATL,PHI,P,7200,15.4
+Chad Bettis ,COL,@PIT,P,6900,16.6
+Trevor Williams ,@PIT,COL,P,6700,19
+Adam Wainwright ,STL,@CHC,P,6500,3.5
+Miguel Gonzalez ,CWS,@OAK,P,6300,8.8
+Jake Odorizzi ,@MIN,CLE,P,6000,18.7
+Junior Guerra ,@MIL,CIN,P,5400,7.9
+Ariel Miranda ,@SEA,HOU,P,5400,2.1
+Sal Romano ,CIN,@MIL,P,5300,5.6
+Mookie Betts Q,BOS,@LAA,OF,5300,14.2
+Charlie Blackmon ,COL,@PIT,OF,5200,14.2
+Bryce Harper ,WSH,@NYM,OF,5200,12.8
+Matt Moore ,TEX,@TB,P,5200,2.9
+Freddie Freeman ,@ATL,PHI,1B,5100,7.6
+Kris Bryant ,@CHC,STL,3B,5100,10.2
+Trevor Cahill ,@OAK,CWS,P,5100,0.9
+Mike Trout ,@LAA,BOS,OF,5100,14.8
+Gregory Polanco ,@PIT,COL,OF,5000,7.4
+Edwin Encarnacion ,CLE,@MIN,1B,4900,1.4
+Khris Davis ,@OAK,CWS,OF,4900,16.8
+Robinson Cano ,@SEA,HOU,2B,4900,5.4
+Jose Ramirez ,CLE,@MIN,3B,4800,11.8
+Rhys Hoskins ,PHI,@ATL,OF,4800,8
+Buster Posey Q,SF,@ARI,1B / C ,4800,8.6
+Paul Goldschmidt ,@ARI,SF,1B,4800,17.8
+Bryan Mitchell ,@SD,LAD,P,4800,0.6
+Jose Altuve ,HOU,@SEA,2B,4800,4.8
+Carlos Correa ,HOU,@SEA,SS,4800,7.4
+Brian Dozier ,@MIN,CLE,2B,4700,7.4
+Yonny Chirinos ,@TB,TEX,P,4700,0
+J.D. Martinez ,BOS,@LAA,OF,4700,11.8
+Hanley Ramirez ,BOS,@LAA,1B,4700,13.2
+Eric Hosmer ,@SD,LAD,1B,4700,6.6
+George Springer ,HOU,@SEA,OF,4700,13
+Francisco Lindor ,CLE,@MIN,SS,4600,11.6
+Ryan Braun ,@MIL,CIN,1B / OF ,4600,4.8
+Eric Thames ,@MIL,CIN,1B,4600,8
+A.J. Pollock ,@ARI,SF,OF,4600,9.2
+Zack Cozart ,@LAA,BOS,2B / 3B ,4600,8.8
+Justin Upton ,@LAA,BOS,OF,4500,12.6
+Nelson Cruz ,@SEA,HOU,OF,4500,10.6
+Trea Turner ,WSH,@NYM,SS,4400,7.6
+Joey Votto ,CIN,@MIL,1B,4400,6
+Kyle Schwarber ,@CHC,STL,OF,4400,8.4
+Matt Davidson ,CWS,@OAK,1B / 3B ,4400,5.2
+Yasiel Puig ,LAD,@SD,OF,4400,6.2
+Dee Gordon ,@SEA,HOU,OF,4400,8
+Corey Dickerson ,@PIT,COL,OF,4300,8.8
+Ozzie Albies ,@ATL,PHI,2B,4300,17.2
+Matt Chapman ,@OAK,CWS,3B,4300,10.6
+DJ LeMahieu ,COL,@PIT,2B,4200,13.2
+Miguel Sano ,@MIN,CLE,3B,4200,8.2
+Yoenis Cespedes ,@NYM,WSH,OF,4200,3
+Marcell Ozuna ,STL,@CHC,OF,4200,6.8
+Jose Abreu ,CWS,@OAK,1B,4200,9.6
+Corey Seager ,LAD,@SD,SS,4200,5.2
+Mitch Haniger ,@SEA,HOU,OF,4200,10
+Starling Marte ,@PIT,COL,OF,4100,12.8
+Todd Frazier ,@NYM,WSH,3B,4100,12.8
+Cesar Hernandez ,PHI,@ATL,2B,4100,8
+Travis Shaw ,@MIL,CIN,3B,4100,5.4
+Tim Anderson ,CWS,@OAK,SS,4100,4.2
+Ian Kinsler ,@LAA,BOS,2B,4100,9.8
+Andrew Benintendi ,BOS,@LAA,OF,4100,15.2
+Cody Bellinger ,LAD,@SD,1B,4100,9.6
+Alex Bregman ,HOU,@SEA,3B,4100,8
+Carlos Gonzalez ,COL,@PIT,OF,4000,6.8
+Josh Bell ,@PIT,COL,1B,4000,6.2
+Javier Baez ,@CHC,STL,2B,4000,16.8
+David Peralta ,@ARI,SF,OF,4000,11
+Matt Olson ,@OAK,CWS,1B,4000,6.2
+Evan Gattis ,HOU,@SEA,C,4000,2.8
+Michael Brantley ,CLE,@MIN,OF,3900,6.4
+Ryan Zimmerman ,WSH,@NYM,1B,3900,2.4
+Willson Contreras ,@CHC,STL,C,3900,8.8
+Paul DeJong ,STL,@CHC,SS,3900,5
+Jed Lowrie ,@OAK,CWS,2B,3900,15
+Josh Reddick ,HOU,@SEA,OF,3900,5.6
+Yonder Alonso ,CLE,@MIN,1B,3800,5.2
+Asdrubal Cabrera ,@NYM,WSH,2B,3800,9.2
+Maikel Franco ,PHI,@ATL,3B,3800,4
+Lorenzo Cain ,@MIL,CIN,OF,3800,5.8
+Kyle Seager ,@SEA,HOU,3B,3800,13
+Jean Segura ,@SEA,HOU,SS,3800,6.2
+Brian McCann ,HOU,@SEA,C,3800,3.4
+Ian Desmond ,COL,@PIT,1B / OF ,3700,4.2
+Trevor Story ,COL,@PIT,SS,3700,6.2
+Yadier Molina ,STL,@CHC,C,3700,9.6
+Jose Martinez ,STL,@CHC,1B,3700,14
+Brandon Belt ,SF,@ARI,1B,3700,4.6
+Albert Pujols ,@LAA,BOS,1B,3700,8.8
+Rafael Devers ,BOS,@LAA,3B,3700,4
+Chris Taylor ,LAD,@SD,OF,3700,10.2
+Dexter Fowler ,STL,@CHC,OF,3600,9.4
+Ben Zobrist ,@CHC,STL,2B / OF ,3600,8
+Joe Panik ,SF,@ARI,2B,3600,7
+Jefry Marte ,@LAA,BOS,1B / 3B ,3600,8.2
+Andrelton Simmons ,@LAA,BOS,SS,3600,8
+Kike Hernandez ,LAD,@SD,1B / 2B ,3600,5.2
+Colin Moran ,@PIT,COL,3B,3500,3.4
+Yan Gomes ,CLE,@MIN,C,3500,6.2
+Joey Gallo ,TEX,@TB,1B,3500,10.8
+Ender Inciarte ,@ATL,PHI,OF,3500,5.4
+Odubel Herrera ,PHI,@ATL,OF,3500,8
+Marcus Semien ,@OAK,CWS,SS,3500,9.6
+Eduardo Nunez ,BOS,@LAA,2B / SS ,3500,9.6
+Matt Kemp ,LAD,@SD,OF,3500,9
+Francisco Cervelli ,@PIT,COL,C,3400,11.6
+Wilmer Flores ,@NYM,WSH,2B / 3B ,3400,8.8
+Howie Kendrick ,WSH,@NYM,2B / OF ,3400,9
+Carlos Gomez ,@TB,TEX,OF,3400,2
+Andrew McCutchen ,SF,@ARI,OF,3400,6.6
+Jose Pirela ,@SD,LAD,OF,3400,10.8
+Billy Hamilton ,CIN,@MIL,OF,3300,10
+Matt Carpenter ,STL,@CHC,2B / 3B ,3300,8.8
+Addison Russell ,@CHC,STL,SS,3300,3.6
+Freddy Galvis ,@SD,LAD,SS,3300,6
+Christian Villanueva ,@SD,LAD,3B,3300,16.2
+Franchy Cordero ,@SD,LAD,OF,3300,7.4
+Ryan McMahon ,COL,@PIT,1B / 2B ,3200,0.6
+Tyler Naquin ,CLE,@MIN,OF,3200,5
+Mallex Smith ,@TB,TEX,OF,3200,9.2
+Nick Williams ,PHI,@ATL,OF,3200,6.8
+Nick Markakis ,@ATL,PHI,OF,3200,5.2
+Dansby Swanson ,@ATL,PHI,SS,3200,8.6
+Ketel Marte ,@ARI,SF,2B / SS ,3200,10
+Yoan Moncada ,CWS,@OAK,2B,3200,6.2
+Kole Calhoun ,@LAA,BOS,OF,3200,7.8
+Jason Kipnis ,CLE,@MIN,2B,3100,6.6
+Amed Rosario ,@NYM,WSH,SS,3100,1.8
+Adrian Beltre ,TEX,@TB,3B,3100,6.2
+Yolmer Sanchez ,CWS,@OAK,3B,3100,3.2
+Matt Joyce ,@OAK,CWS,OF,3100,5
+Jackie Bradley Jr. ,BOS,@LAA,OF,3100,8
+Austin Barnes ,LAD,@SD,C,3100,2.8
+Jordy Mercer ,@PIT,COL,SS,3000,1.8
+Eduardo Escobar ,@MIN,CLE,SS,3000,4.8
+Max Kepler ,@MIN,CLE,OF,3000,8.2
+Joe Mauer ,@MIN,CLE,1B,3000,11.2
+Logan Morrison ,@MIN,CLE,1B,3000,2.8
+Bradley Zimmer ,CLE,@MIN,OF,3000,8.8
+Michael A. Taylor ,WSH,@NYM,OF,3000,7
+Shin-soo Choo ,TEX,@TB,OF,3000,2
+Ryan Flaherty ,@ATL,PHI,3B,3000,2.8
+Scooter Gennett ,CIN,@MIL,2B,3000,7
+Adam Duvall ,CIN,@MIL,OF,3000,9.2
+Jesse Winker ,CIN,@MIL,OF,3000,3.4
+Stephen Piscotty ,@OAK,CWS,OF,3000,9
+Jonathan Lucroy ,@OAK,CWS,C,3000,6
+Nicky Delmonico ,CWS,@OAK,OF,3000,7.2
+Brock Holt ,BOS,@LAA,2B / OF ,3000,5.6
+Hunter Renfroe ,@SD,LAD,OF,3000,13
+Marwin Gonzalez ,HOU,@SEA,1B / OF ,3000,2
+Gerardo Parra ,COL,@PIT,OF,2900,5
+Robbie Grossman ,@MIN,CLE,OF,2900,1.4
+Eddie Rosario ,@MIN,CLE,OF,2900,10.8
+Jason Castro ,@MIN,CLE,C,2900,3.8
+Wilmer Difo ,WSH,@NYM,2B / SS ,2900,5.4
+Nomar Mazara ,TEX,@TB,OF,2900,6.6
+Andrew Knapp ,PHI,@ATL,C,2900,2.6
+J.P. Crawford ,PHI,@ATL,SS,2900,12.2
+Jose Peraza ,CIN,@MIL,SS,2900,7
+Alex Avila ,@ARI,SF,C,2900,4.4
+Evan Longoria ,SF,@ARI,3B,2900,8.8
+Christian Vazquez ,BOS,@LAA,C,2900,4.8
+Chase Utley ,LAD,@SD,2B,2900,7.2
+Jake Marisnick ,HOU,@SEA,OF,2900,1.6
+Wilson Ramos ,@TB,TEX,C,2800,7
+C.J. Cron ,@TB,TEX,1B,2800,9.2
+Daniel Robertson ,@TB,TEX,2B / SS ,2800,6.8
+Ronald Guzman ,TEX,@TB,1B,2800,0
+Preston Tucker ,@ATL,PHI,OF,2800,4.6
+Jason Heyward ,@CHC,STL,OF,2800,5.4
+Greg Garcia ,STL,@CHC,3B / SS ,2800,12
+Nick Ahmed ,@ARI,SF,SS,2800,3.6
+Brandon Crawford ,SF,@ARI,SS,2800,6.2
+Austin Jackson ,SF,@ARI,OF,2800,6.6
+Leury Garcia ,CWS,@OAK,OF,2800,4.4
+Carlos Asuaje ,@SD,LAD,2B,2800,2.4
+Daniel Vogelbach ,@SEA,HOU,1B,2800,9.2
+Tony Wolters ,COL,@PIT,C,2700,4.6
+Pedro Severino ,WSH,@NYM,C,2700,4.4
+Adeiny Hechavarria ,@TB,TEX,SS,2700,3.8
+Eric Sogard ,@MIL,CIN,2B / SS ,2700,0.6
+Hunter Pence ,SF,@ARI,OF,2700,3.8
+Omar Narvaez ,CWS,@OAK,C,2700,2.8
+Martin Maldonado ,@LAA,BOS,C,2700,6.6
+Mike Marjama ,@SEA,HOU,C,2700,3.2
+Juan Lagares ,@NYM,WSH,OF,2600,4.8
+Devin Mesoraco ,CIN,@MIL,C,2600,5.4
+Jarrod Dyson ,@ARI,SF,OF,2600,3.4
+A.J. Ellis ,@SD,LAD,C,2600,3.4
+Tomas Nido ,@NYM,WSH,C,2500,2.4
+Drew Robinson ,TEX,@TB,OF,2500,4
+Johnny Field ,@TB,TEX,OF,2500,0
+Cliff Pennington ,CIN,@MIL,2B / SS ,2500,1
+Daniel Descalso ,@ARI,SF,2B / 3B ,2500,6.8
+Sean Rodriguez ,@PIT,COL,1B / 2B ,2400,5.6
+Juan Centeno ,TEX,@TB,C,2400,4.6
+Isiah Kiner-Falefa ,TEX,@TB,2B / 3B ,2400,3.4
+Ichiro Suzuki ,@SEA,HOU,OF,2400,3.2
+Moises Sierra ,WSH,@NYM,OF,2300,4.2
+Carlos Perez ,@ATL,PHI,C,2200,1
+Rob Refsnyder ,@TB,TEX,OF,2100,3
