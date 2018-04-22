@@ -12,7 +12,8 @@ game_date = 20180420
 
 
 #path to file directory - HOME
-# formats = ('/Users/Chris/Desktop/Statis/MLB/2018/formats/')
+# lineup_path        = ('/Users/chris/downloads/')
+# projection_path    = ('/Users/chris/downloads/')
 
 
 #path to file directory - WORK
