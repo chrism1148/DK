@@ -4,7 +4,7 @@ import csv
 import os
 
 
-game_date = 20180414
+game_date = 20180420
 
 
 ################################## START OF NO CHANGE POLICY ##############################
@@ -23,7 +23,7 @@ ifile_2   = os.path.join(projection_path, 'dk_mlb_projection_comparison_upload_%
 
 # read files to dataframe for formatting
 lineups = pd.read_csv(ifile_1)
-lineups.columns = ['game_date', 'source', 'pitcher_1', 'pitcher_2', 'catcher', 'first_base', 'second_base', 'third_base', 'short_stop', 'outfield_1', 'outfield_2', 'outfield_3', 'lineup_salary']
+lineups.columns = ['game_date', 'source', 'rank', 'pitcher_1', 'pitcher_2', 'catcher', 'first_base', 'second_base', 'third_base', 'short_stop', 'outfield_1', 'outfield_2', 'outfield_3', 'lineup_salary']
 
 projections = pd.read_csv(ifile_2)
 projections.columns = ['game_date', 'player', 'team', 'opponent', 'postion', 'salary', 'my_proj', 'rotoql_proj', 'dfs_guru_proj', 'last_5_games_avg', 'season_avg', 'dk_points']
@@ -40,6 +40,7 @@ season_avg_dict       = pd.Series(projections.season_avg.values, index=projectio
 
 #map players in specific lineup postions to the specific {'player': 'point value'} dictionary
 lineup_source = lineups['source']
+lineup_rank = lineups['rank']
 pitcher_1 = lineups['pitcher_1']
 pitcher_1_points = pitcher_1.map(dk_points_dict)
 pitcher_1_rotoql = pitcher_1.map(rotoql_proj_dict)
@@ -123,6 +124,7 @@ outfield_3_season = outfield_3.map(season_avg_dict)
 lineup_results = pd.DataFrame()
 lineup_results['game_date'] = lineups['game_date']
 lineup_results['source']  = lineup_source
+lineup_results['rank']  = lineup_rank
 
 lineup_results['pitcher_1'] = pitcher_1
 lineup_results['pitcher_1_points'] = pitcher_1_points
