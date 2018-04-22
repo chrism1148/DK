@@ -4,22 +4,24 @@ import csv
 import os
 
 
-contest_date = 20180414
-contest_name = 'single_entry_saturday'
-contest_entry_fee = 400
-contest_id = 55367482
+contest_date = 20180410
+contest_name = 'silver_slugger'
+contest_entry_fee = 1060
+contest_id = 55265054
+
+
 
 
 
 ################################## START OF NO CHANGE POLICY ##############################
 
 #path to files - HOME
-# formats = ('/Users/Chris/Desktop/Statis/MLB/2018/formats/%d' % (contest_date))
-# uploads = ('/Users/Chris/Desktop/Statis/MLB/2018/uploads/%d' % (contest_date))
+formats = ('/Users/Chris/downloads/')
+uploads = ('/Users/Chris/downloads/')
 
  #path to files - WORK
-formats = ('/Users/chrismccallan/downloads/')
-uploads = ('/Users/chrismccallan/downloads/')
+# formats = ('/Users/chrismccallan/downloads/')
+# uploads = ('/Users/chrismccallan/downloads/')
 
 ifile   = os.path.join(formats, 'dk_mlb_%s_%d_formatted.csv' % (contest_name, contest_date))
 ofile   = os.path.join(uploads, 'dk_mlb_%s_%d_upload.csv' % (contest_name, contest_date))
@@ -66,10 +68,11 @@ data['ContestFee']     = contest_entry_fee
 ################################## END OF NO CHANGE POLICY ##############################
 
 data['Winnings']            = 0
-data.loc[0:17, 'Winnings']   = [5000, 3000, 2000, 2000, 1200, 1200, 1000, 1000, 1000, 900, 900, 900, 900, 800, 800, 800, 800, 800]
-# data.loc[12:14, 'Winnings']  = 250
-# data.loc[15:19, 'Winnings']  = 200
-# data.loc[20:26, 'Winnings']  = 150
+data.loc[0:0, 'Winnings']   = 1000
+# data.loc[7:9, 'Winnings']    = 500
+# data.loc[10:16, 'Winnings']  = 400
+# data.loc[17:25, 'Winnings']  = 300
+# data.loc[26:41, 'Winnings']  = 250
 
 
 # data['Winnings']             = 0
