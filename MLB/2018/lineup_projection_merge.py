@@ -4,18 +4,18 @@ import csv
 import os
 
 
-game_date = 20180420
+game_date = 20180421
 
 
 ################################## START OF NO CHANGE POLICY ##############################
 
 #path to file directory - HOME
-# lineup_path        = ('/Users/chris/downloads/')
-# projection_path    = ('/Users/chris/downloads/')
+lineup_path        = ('/Users/chris/downloads/')
+projection_path    = ('/Users/chris/downloads/')
 
 #path to file directory - WORK
-lineup_path        = ('/Users/chrismccallan/downloads/')
-projection_path    = ('/Users/chrismccallan/downloads/')
+# lineup_path        = ('/Users/chrismccallan/downloads/')
+# projection_path    = ('/Users/chrismccallan/downloads/')
 
 #load date specific files from path
 ifile_1   = os.path.join(lineup_path, 'dk_mlb_lineup_comparison_upload_%d.csv' % (game_date))
@@ -36,12 +36,13 @@ rotoql_proj_dict      = pd.Series(projections.rotoql_proj.values, index=projecti
 dfs_guru_proj_dict    = pd.Series(projections.dfs_guru_proj.values, index=projections.player).to_dict()
 last_5_games_avg_dict = pd.Series(projections.last_5_games_avg.values, index=projections.player).to_dict()
 season_avg_dict       = pd.Series(projections.season_avg.values, index=projections.player).to_dict()
-
+salary_dict           = pd.Series(projections.salary.values, index=projections.player).to_dict()
 
 #map players in specific lineup postions to the specific {'player': 'point value'} dictionary
 lineup_source = lineups['source']
 lineup_rank = lineups['rank']
 pitcher_1 = lineups['pitcher_1']
+pitcher_1_salary = pitcher_1.map(salary_dict)
 pitcher_1_points = pitcher_1.map(dk_points_dict)
 pitcher_1_rotoql = pitcher_1.map(rotoql_proj_dict)
 pitcher_1_dfs_guru = pitcher_1.map(dfs_guru_proj_dict)
@@ -50,6 +51,7 @@ pitcher_1_season = pitcher_1.map(season_avg_dict)
 
 
 pitcher_2 = lineups['pitcher_2']
+pitcher_2_salary = pitcher_2.map(salary_dict)
 pitcher_2_points = pitcher_2.map(dk_points_dict)
 pitcher_2_rotoql = pitcher_2.map(rotoql_proj_dict)
 pitcher_2_dfs_guru = pitcher_2.map(dfs_guru_proj_dict)
@@ -58,6 +60,7 @@ pitcher_2_season = pitcher_2.map(season_avg_dict)
 
 
 catcher = lineups['catcher']
+catcher_salary = catcher.map(salary_dict)
 catcher_points = catcher.map(dk_points_dict)
 catcher_rotoql = catcher.map(rotoql_proj_dict)
 catcher_dfs_guru = catcher.map(dfs_guru_proj_dict)
@@ -66,6 +69,7 @@ catcher_season = catcher.map(season_avg_dict)
 
 
 first_base = lineups['first_base']
+first_base_salary = first_base.map(salary_dict)
 first_base_points = first_base.map(dk_points_dict)
 first_base_rotoql = first_base.map(rotoql_proj_dict)
 first_base_dfs_guru = first_base.map(dfs_guru_proj_dict)
@@ -74,6 +78,7 @@ first_base_season = first_base.map(season_avg_dict)
 
 
 second_base = lineups['second_base']
+second_base_salary = second_base.map(salary_dict)
 second_base_points = second_base.map(dk_points_dict)
 second_base_rotoql = second_base.map(rotoql_proj_dict)
 second_base_dfs_guru = second_base.map(dfs_guru_proj_dict)
@@ -82,6 +87,7 @@ second_base_season = second_base.map(season_avg_dict)
 
 
 third_base = lineups['third_base']
+third_base_salary = third_base.map(salary_dict)
 third_base_points = third_base.map(dk_points_dict)
 third_base_rotoql = third_base.map(rotoql_proj_dict)
 third_base_dfs_guru = third_base.map(dfs_guru_proj_dict)
@@ -90,6 +96,7 @@ third_base_season = third_base.map(season_avg_dict)
 
 
 short_stop = lineups['short_stop']
+short_stop_salary = short_stop.map(salary_dict)
 short_stop_points = short_stop.map(dk_points_dict)
 short_stop_rotoql = short_stop.map(rotoql_proj_dict)
 short_stop_dfs_guru = short_stop.map(dfs_guru_proj_dict)
@@ -98,6 +105,7 @@ short_stop_season = short_stop.map(season_avg_dict)
 
 
 outfield_1 = lineups['outfield_1']
+outfield_1_salary = outfield_1.map(salary_dict)
 outfield_1_points = outfield_1.map(dk_points_dict)
 outfield_1_rotoql = outfield_1.map(rotoql_proj_dict)
 outfield_1_dfs_guru = outfield_1.map(dfs_guru_proj_dict)
@@ -106,6 +114,7 @@ outfield_1_season = outfield_1.map(season_avg_dict)
 
 
 outfield_2 = lineups['outfield_2']
+outfield_2_salary = outfield_2.map(salary_dict)
 outfield_2_points = outfield_2.map(dk_points_dict)
 outfield_2_rotoql = outfield_2.map(rotoql_proj_dict)
 outfield_2_dfs_guru = outfield_2.map(dfs_guru_proj_dict)
@@ -114,6 +123,7 @@ outfield_2_season = outfield_2.map(season_avg_dict)
 
 
 outfield_3 = lineups['outfield_3']
+outfield_3_salary = outfield_3.map(salary_dict)
 outfield_3_points = outfield_3.map(dk_points_dict)
 outfield_3_rotoql = outfield_3.map(rotoql_proj_dict)
 outfield_3_dfs_guru = outfield_3.map(dfs_guru_proj_dict)
@@ -127,6 +137,7 @@ lineup_results['source']  = lineup_source
 lineup_results['rank']  = lineup_rank
 
 lineup_results['pitcher_1'] = pitcher_1
+lineup_results['pitcher_1_salary'] = pitcher_1_salary
 lineup_results['pitcher_1_points'] = pitcher_1_points
 lineup_results['pitcher_1_rotoql'] = pitcher_1_rotoql
 lineup_results['pitcher_1_dfs_guru'] = pitcher_1_dfs_guru
@@ -135,6 +146,7 @@ lineup_results['pitcher_1_season'] = pitcher_1_season
 
 
 lineup_results['pitcher_2'] = pitcher_2
+lineup_results['pitcher_2_salary'] = pitcher_2_salary
 lineup_results['pitcher_2_points'] = pitcher_2_points
 lineup_results['pitcher_2_rotoql'] = pitcher_2_rotoql
 lineup_results['pitcher_2_dfs_guru'] = pitcher_2_dfs_guru
@@ -143,6 +155,7 @@ lineup_results['pitcher_2_season'] = pitcher_2_season
 
 
 lineup_results['catcher'] = catcher
+lineup_results['catcher_salary'] = catcher_salary
 lineup_results['catcher_points'] = catcher_points
 lineup_results['catcher_rotoql'] = catcher_rotoql
 lineup_results['catcher_dfs_guru'] = catcher_dfs_guru
@@ -151,6 +164,7 @@ lineup_results['catcher_season'] = catcher_season
 
 
 lineup_results['first_base'] = first_base
+lineup_results['first_base_salary'] = first_base_salary
 lineup_results['first_base_points'] = first_base_points
 lineup_results['first_base_rotoql'] = first_base_rotoql
 lineup_results['first_base_dfs_guru'] = first_base_dfs_guru
@@ -159,6 +173,7 @@ lineup_results['first_base_season'] = first_base_season
 
 
 lineup_results['second_base'] = second_base
+lineup_results['second_base_salary'] = second_base_salary
 lineup_results['second_base_points'] = second_base_points
 lineup_results['second_base_rotoql'] = second_base_rotoql
 lineup_results['second_base_dfs_guru'] = second_base_dfs_guru
@@ -167,6 +182,7 @@ lineup_results['second_base_season'] = second_base_season
 
 
 lineup_results['third_base'] = third_base
+lineup_results['third_base_salary'] = third_base_salary
 lineup_results['third_base_points'] = third_base_points
 lineup_results['third_base_rotoql'] = third_base_rotoql
 lineup_results['third_base_dfs_guru'] = third_base_dfs_guru
@@ -175,6 +191,7 @@ lineup_results['third_base_season'] = third_base_season
 
 
 lineup_results['short_stop'] = short_stop
+lineup_results['short_stop_salary'] = short_stop_salary
 lineup_results['short_stop_points'] = short_stop_points
 lineup_results['short_stop_rotoql'] = short_stop_rotoql
 lineup_results['short_stop_dfs_guru'] = short_stop_dfs_guru
@@ -183,6 +200,7 @@ lineup_results['short_stop_season'] = short_stop_season
 
 
 lineup_results['outfield_1'] = outfield_1
+lineup_results['outfield_1_salary'] = outfield_1_salary
 lineup_results['outfield_1_points'] = outfield_1_points
 lineup_results['outfield_1_rotoql'] = outfield_1_rotoql
 lineup_results['outfield_1_dfs_guru'] = outfield_1_dfs_guru
@@ -191,6 +209,7 @@ lineup_results['outfield_1_season'] = outfield_1_season
 
 
 lineup_results['outfield_2'] = outfield_2
+lineup_results['outfield_2_salary'] = outfield_2_salary
 lineup_results['outfield_2_points'] = outfield_2_points
 lineup_results['outfield_2_rotoql'] = outfield_2_rotoql
 lineup_results['outfield_2_dfs_guru'] = outfield_2_dfs_guru
@@ -199,13 +218,14 @@ lineup_results['outfield_2_season'] = outfield_2_season
 
 
 lineup_results['outfield_3'] = outfield_3
+lineup_results['outfield_3_salary'] = outfield_3_salary
 lineup_results['outfield_3_points'] = outfield_3_points
 lineup_results['outfield_3_rotoql'] = outfield_3_rotoql
 lineup_results['outfield_3_dfs_guru'] = outfield_3_dfs_guru
 lineup_results['outfield_3_last_5'] = outfield_3_last_5
 lineup_results['outfield_3_season'] = outfield_3_season
 
-
+lineup_results['lineup_salary']  = pitcher_1_salary + pitcher_2_salary + catcher_salary + first_base_salary + second_base_salary + third_base_salary + short_stop_salary + outfield_1_salary + outfield_2_salary + outfield_3_salary
 lineup_results['lineup_dk_points']  = pitcher_1_points + pitcher_2_points + catcher_points + first_base_points + second_base_points + third_base_points + short_stop_points + outfield_1_points + outfield_2_points + outfield_3_points
 lineup_results['lineup_rotoql_proj'] = pitcher_1_rotoql + pitcher_2_rotoql + catcher_rotoql + first_base_rotoql + second_base_rotoql + third_base_rotoql + short_stop_rotoql + outfield_1_rotoql + outfield_2_rotoql + outfield_3_rotoql
 lineup_results['lineup_dfs_guru_proj'] = pitcher_1_dfs_guru + pitcher_2_dfs_guru + catcher_dfs_guru + first_base_dfs_guru + second_base_dfs_guru + third_base_dfs_guru + short_stop_dfs_guru + outfield_1_dfs_guru + outfield_2_dfs_guru + outfield_3_dfs_guru
