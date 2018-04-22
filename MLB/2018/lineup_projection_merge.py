@@ -10,8 +10,8 @@ game_date = 20180420
 ################################## START OF NO CHANGE POLICY ##############################
 
 #path to file directory - HOME
-# lineup_path        = ('/Users/Chris/Desktop/Statis/MLB/2018/formatted_lineups/')
-# projection_path    = ('/Users/Chris/Desktop/Statis/MLB/2018/formatted_projections/')
+# lineup_path        = ('/Users/chris/downloads/')
+# projection_path    = ('/Users/chris/downloads/')
 
 #path to file directory - WORK
 lineup_path        = ('/Users/chrismccallan/downloads/')
