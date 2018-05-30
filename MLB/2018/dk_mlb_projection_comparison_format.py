@@ -6,13 +6,14 @@ import os
 import teamlib
 
 
-game_date = 20180420
+game_date = 20180527
+
+
 
 ####################    DO NOT CHANGE BELOW THIS LINE  ###########################
 
 #path to file directory - HOME
-# lineup_path        = ('/Users/chris/downloads/')
-# projection_path    = ('/Users/chris/downloads/')
+# formats = ('/Users/Chris/Desktop/Statis/MLB/2018/formats/')
 
 #path to file directory - WORK
 downloads = '/Users/chrismccallan/Downloads'
@@ -20,7 +21,7 @@ formats = ('/Users/chrismccallan/Downloads')
 
 ifile  = os.path.join(downloads, 'dk_mlb_raw_projections_%d.csv' % (game_date))
 ofile  = os.path.join(formats, 'dk_mlb_projection_comparison_upload_%d.csv' % (game_date))
-ofile  = open(ofile, 'w')
+ofile  = open(ofile, 'w', encoding="ISO-8859-1")
 writer = csv.writer(ofile)
 
 
@@ -40,9 +41,10 @@ with open(ifile, 'r') as csvfile:
 		my_proj           = row[5].strip()
 		rotoql_proj       = row[6].strip()
 		dfs_guru_proj     = row[7].strip()
-		last_5_games_avg  = row[8].strip()
-		season_avg        = row[9].strip()
-		dk_points         = row[10].strip()
+		bp_proj           = row[8].strip()
+		last_5_games_avg  = row[9].strip()
+		season_avg        = row[10].strip()
+		dk_points         = row[11].strip()
 		# home_away         = re.sub(r'\D[A-Z]{1,}', 'H', row[2])
 
 
@@ -53,6 +55,5 @@ with open(ifile, 'r') as csvfile:
 			opponent = teamlib.team_dict[opponent_clean]
 
 
-		output = (game_date, player, team, opponent, position, salary, my_proj, rotoql_proj, dfs_guru_proj, last_5_games_avg, season_avg, dk_points)
-
+		output = (game_date, player, team, opponent, position, salary, my_proj, rotoql_proj, dfs_guru_proj, last_5_games_avg, season_avg, dk_points, bp_proj)
 		writer.writerows([output])

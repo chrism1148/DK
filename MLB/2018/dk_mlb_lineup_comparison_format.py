@@ -8,17 +8,16 @@ import os
 
 ####################    DO NOT CHANGE BELOW THIS LINE  ###########################
 
-game_date = 20180420
+game_date = 20180527
 
 
 #path to file directory - HOME
-# lineup_path        = ('/Users/chris/downloads/')
-# projection_path    = ('/Users/chris/downloads/')
+# formats = ('/Users/Chris/Desktop/Statis/MLB/2018/formats/')
 
 
 #path to file directory - WORK
 downloads = '/Users/chrismccallan/Downloads'
-formats = ('/Users/chrismccallan/Downloads')
+formats = '/Users/chrismccallan/Downloads'
 
 
 ifile  = os.path.join(downloads, 'dk_mlb_raw_lineups_%d.csv' % (game_date))
@@ -29,7 +28,6 @@ writer = csv.writer(ofile)
 
 with open(ifile, 'r') as csvfile:
 	reader = csv.reader(csvfile)
-	# next(reader)
 
 	for row in reader:
 		game_date         = game_date
@@ -46,6 +44,9 @@ with open(ifile, 'r') as csvfile:
 		lineup_rank       = re.sub(r'RotoQL MLB\s\s\D', '', lineup_rank)
 		lineup_rank       = re.sub(r'Perfect Lineup\s\s\D', '', lineup_rank)
 		lineup_rank       = re.sub(r'Baseball Prospectus\s\s\D', '', lineup_rank)
+		lineup_rank       = re.sub(r'Season Avg\s\s\D', '', lineup_rank)
+		lineup_rank       = re.sub(r'Strategy 1\s\s\D', '', lineup_rank)
+
 		
 		pitcher_1         = re.sub(r'\s\(.*?\)', '', row[1])
 		pitcher_2         = re.sub(r'\s\(.*?\)', '', row[2])
@@ -59,6 +60,5 @@ with open(ifile, 'r') as csvfile:
 		outfield_3        = re.sub(r'\s\(.*?\)', '', row[10])
 		lineup_salary     = row[11]
 	
-		print(lineup_rank)
 		output = (game_date, lineup_source, lineup_rank, pitcher_1, pitcher_2, catcher, first_base, second_base, third_base, short_stop, outfield_1, outfield_2, outfield_3, lineup_salary)
 		writer.writerows([output])
