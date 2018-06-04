@@ -4,7 +4,7 @@ import pandas as pd
 import os
 import player_hand_lib as phl
 import player_name_lib as pnl
-
+import re
 
 
 downloads = '/Users/chrismccallan/Downloads'
@@ -23,18 +23,17 @@ stats['player'] = stats['player'].map(pnl.dict)
 stats['starter'] = stats['starter'].fillna(value=0)
 stats['starter'] = stats['starter'].astype('int')
 
-
 stats['team'] = stats['team'].str.lower()
+
 stats['opponent'] = stats['opponent'].str.replace('@ ', '')
 stats['opponent'] = stats['opponent'].str.replace('v ', '')
 
-
-stats['double header'] = stats['double header'].fillna(value=0)
+stats['double header'] = stats['double header'].fillna(value=1)
 stats['double header'] = stats['double header'].astype('int')
-
 
 stats['player hand'] = stats['player'].map(phl.dict)
 
+stats['opponent runs'] = stats['opponent runs'].str.replace(r'\(.*?\){1,}', '')
 
 
 
