@@ -873,4 +873,44 @@ dict = {"Chris Taylor":"67",
 "Parker Bridwell":"1",
 "Brian Johnson":"1",
 "Matt Shoemaker":"1",
-"Odrisamer Despaigne":"1",}
+"Odrisamer Despaigne":"1",
+"Dustin Pedroia":"4",
+"Carlos Perez":"2",
+"John Andreoli":"7",
+"Ariel Jurado":"1",
+"Trevor Oaks":"1",
+"Chris Volstad":"1",
+"Brandon Snyder":"5",
+"Miguel Gonzalez":"1",
+"Tomas Telis":"2",
+"Sandy Baez":"1",
+"Mitch Walding":"56",
+"Ronny Rodriguez":"56",
+"Curt Casali":"2",
+"Dereck Rodriguez":"1",
+"Frankie Montas":"1",
+"Walker Lockett":"1",
+"Dylan Cozens":"7",
+"Shane Bieber":"1",
+"Matt Skole":"53",
+"Drew VerHagen":"1",
+"Mike Montgomery":"1",
+"Breyvic Valera":"46",
+"Chris Gimenez":"2",
+"Alex Reyes":"1",
+"Brad Keller":"1",
+"Matt Strahm":"1",
+"Max Fried":"1",
+"Nathan Eovaldi":"1",
+"Seth Lugo":"1",
+"Tim Federowicz":"2",
+"Chris Herrmann":"27",
+"Scott Alexander":"1",
+
+
+
+
+
+
+
+}
