@@ -755,4 +755,5 @@ dict={"Adrian Gonzalez":"L",
 "Seth Lugo":"L",
 "Tim Federowicz":"R",
 "Chris Herrmann":"L",
+"Caleb Ferguson":"L",
 }
