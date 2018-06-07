@@ -906,8 +906,10 @@ dict = {"Chris Taylor":"67",
 "Tim Federowicz":"2",
 "Chris Herrmann":"27",
 "Scott Alexander":"1",
-
-
+"Sam Travis":"3",
+"Jalen Beeks":"1",
+"Kevan Smith":"2",
+"Dennis Santana":"1",
 
 
 

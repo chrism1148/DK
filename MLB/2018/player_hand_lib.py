@@ -756,4 +756,8 @@ dict={"Adrian Gonzalez":"L",
 "Tim Federowicz":"R",
 "Chris Herrmann":"L",
 "Caleb Ferguson":"L",
+"Jalen Beeks":"L",
+"Dennis Santana":"R",
+"Kevan Smith":"R",
+"Sam Travis":"R",
 }

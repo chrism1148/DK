@@ -9,22 +9,22 @@ import os
 import re
 
 
-game_date = 20180606
+game_date = 20180607
 
 
 #HOME
-# downloads = '/Users/chris/Downloads'
-# formats = ('/Users/chris/Downloads')
+downloads = '/Users/chris/Downloads'
+formats = ('/Users/chris/Downloads')
 
 
 #WORK
-downloads = '/Users/chrismccallan/Downloads'
-formats = ('/Users/chrismccallan/Downloads')
+# downloads = '/Users/chrismccallan/Downloads'
+# formats = ('/Users/chrismccallan/Downloads')
 
 
 ifile  = os.path.join(downloads, 'gameday_raw_%d.csv' % (game_date))
 
-stats = pd.read_csv(ifile)
+stats = pd.read_csv(ifile, encoding='ISO-8859-1')
 stats.columns= ['player', 'team', 'opponent', 'position', 'salary']
 
 
@@ -43,6 +43,4 @@ stats['salary'] = stats['salary'].astype('int')
 stats['game_date'] = game_date
 stats['player hand'] = stats['player'].map(player_hand_lib.dict)
 
-stats.to_csv('gameday_formatted_20180606.csv', index=0)
-
-
+stats.to_csv('gameday_formatted_%d.csv' % (game_date), index=0)

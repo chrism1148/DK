@@ -1517,4 +1517,5 @@ dict = {
 "Walker Lockett":"Walker Lockett",
 "Dylan Cozens":"Dylan Cozens",
 "Shane Bieber":"Shane Bieber",
+"Dennis Santana":"Dennis Santana",
 }
