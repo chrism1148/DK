@@ -760,4 +760,31 @@ dict={"Adrian Gonzalez":"L",
 "Dennis Santana":"R",
 "Kevan Smith":"R",
 "Sam Travis":"R",
+"Jose Fernandez":"L",
+"Jake Bauers":"L",
+"Nick Martini":"L",
+"Austin Wynns":"R",
+"Wilmer Font":"R",
+"Zack Littell":"R",
+"Luiz Gohara":"L",
+"Caleb Ferguson":"L",
+"Jonny Venters":"L",
+"Kris Negron":"R",
+"Kristopher Negron":"R",
+"Anthony DeSclafani":"R",
+"Artie Lewicki":"R",
+"Carlos Rodon":"L",
+"Chris Bassitt":"R",
+"Kaleb Cowart":"S",
+"Madison Bumgarner":"L",
+"Paul Blackburn":"R",
+"Steven Wright":"R",
+"Daniel Hudson":"R",
+
+
+
+
+
+
+
 }

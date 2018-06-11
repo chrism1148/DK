@@ -1518,4 +1518,25 @@ dict = {
 "Dylan Cozens":"Dylan Cozens",
 "Shane Bieber":"Shane Bieber",
 "Dennis Santana":"Dennis Santana",
+"Jose Fernandez":"Jose Fernandez",
+"Jake Bauers":"Jake Bauers",
+"Nick Martini":"Nick Martini",
+"Austin Wynns":"Austin Wynns",
+"Wilmer Font":"Wilmer Font",
+"Zack Littell":"Zack Littell",
+"Luiz Gohara":"Luiz Gohara",
+"Caleb Ferguson":"Caleb Ferguson",
+"Jonny Venters":"Jonny Venters",
+"Kris Negron":"Kristopher Negron",
+"Daniel Hudson":"Daniel Hudson",
+
+
+
+
+
+
+
+
+
+
 }

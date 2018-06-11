@@ -1,5 +1,5 @@
 import player_hand_lib
-import player_name_lib_old
+import player_name_lib
 import position_number_lib
 import player_position_lib
 import team_lib
@@ -26,7 +26,7 @@ stats.columns= ['game_date', 'rotoguru id', 'mlb id', 'player', 'starter', 'batt
 
 stats['player'] = stats['player'].apply(lambda x: ' '.join(x.split(',')[::-1]))
 stats['player'] = stats['player'].str.strip()
-stats['player'] = stats['player'].map(player_name_lib_old.dict)
+stats['player'] = stats['player'].map(player_name_lib.dict)
 
 
 stats['starter'] = stats['starter'].fillna(value=0)
@@ -41,9 +41,16 @@ stats['dk salary'] = stats['dk salary'].astype('int')
 stats['team'] = stats['team'].str.lower()
 stats['team'] = stats['team'].map(team_lib.dict)
 
+
+stats['home-away'] = stats['opponent'].str.replace(r'v\s[a-z]{1,}', 'H')
+stats['home-away'] = stats['home-away'].str.replace(r'@\s[a-z]{1,}','A')
+
+
 stats['opponent'] = stats['opponent'].str.replace('@ ', '')
 stats['opponent'] = stats['opponent'].str.replace('v ', '')
 stats['opponent'] = stats['opponent'].map(team_lib.dict)
+
+
 
 stats['double header'] = stats['double header'].fillna(value=1)
 stats['double header'] = stats['double header'].astype('int')
@@ -57,6 +64,8 @@ stats['opponent runs'] = stats['opponent runs'].str.replace(r'\(.*?\){1,}', '')
 
 
 
-stats.to_csv('mlb_season_stat_20180604.csv', index=0)
+
+
+stats.to_csv('mlb_season_stat_20180610.csv', index=0)
 
 

@@ -910,9 +910,26 @@ dict = {"Chris Taylor":"67",
 "Jalen Beeks":"1",
 "Kevan Smith":"2",
 "Dennis Santana":"1",
-
-
-
+"Jose Fernandez":"34",
+"Jake Bauers":"3",
+"Nick Martini":"7",
+"Austin Wynns":"2",
+"Wilmer Font":"1",
+"Zack Littell":"1",
+"Luiz Gohara":"1",
+"Caleb Ferguson":"1",
+"Jonny Venters":"1",
+"Kris Negron":"46",
+"Kristopher Negron":"46",
+"Anthony DeSclafani":"1",
+"Artie Lewicki":"1",
+"Carlos Rodon":"1",
+"Chris Bassitt":"1",
+"Kaleb Cowart":"5",
+"Madison Bumgarner":"1",
+"Paul Blackburn":"1",
+"Steven Wright":"1",
+"Daniel Hudson":"1",
 
 
 }
