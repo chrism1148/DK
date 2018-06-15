@@ -780,11 +780,13 @@ dict={"Adrian Gonzalez":"L",
 "Paul Blackburn":"R",
 "Steven Wright":"R",
 "Daniel Hudson":"R",
-
-
-
-
-
+"Daniel Murphy":"L",
+"Tom Murphy":"R",
+"Dominic Smith":"L",
+"Nolan Fontana":"L",
+"Luke Voit":"R",
+"Yohander Mendez":"L",
+"Jonathan Loaisiga":"R",
 
 
 }

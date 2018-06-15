@@ -1292,6 +1292,7 @@ dict = {
 "Shane Robinson":"Shane Robinson",
 "Josh Harrison":"Josh Harrison",
 "Daniel Murphy":"Daniel Murphy",
+"Dan Murphy":"Daniel Murphy",
 "Chris Archer":"Chris Archer",
 "Alexi Amarista":"Alexi Amarista",
 "Adrian Gonzalez":"Adrian Gonzalez",

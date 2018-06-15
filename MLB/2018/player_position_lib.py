@@ -930,6 +930,16 @@ dict = {"Chris Taylor":"67",
 "Paul Blackburn":"1",
 "Steven Wright":"1",
 "Daniel Hudson":"1",
+"Daniel Murphy":"4",
+"Tom Murphy":"2",
+"Dominic Smith":"3",
+"Nolan Fontana":"46",
+"Luke Voit":"3",
+"Yohander Mendez":"1",
+"Jonathan Loaisiga":"1",
+
+
+
 
 
 }
