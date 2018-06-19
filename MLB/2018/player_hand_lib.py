@@ -787,6 +787,14 @@ dict={"Adrian Gonzalez":"L",
 "Luke Voit":"R",
 "Yohander Mendez":"L",
 "Jonathan Loaisiga":"R",
-
+"Tom Murphy":"R",
+"Yefry Ramirez":"R",
+"David Fletcher":"R",
+"Jonathan Loaisiga":"R",
+"Corban Joseph":"L",
+"John Lamb":"L",
+"Yovani Gallardo":"L",
+"Jose Trevino":"R",
+"Adalberto Mondesi":"S",
 
 }

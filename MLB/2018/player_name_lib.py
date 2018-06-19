@@ -1530,12 +1530,14 @@ dict = {
 "Jonny Venters":"Jonny Venters",
 "Kris Negron":"Kristopher Negron",
 "Daniel Hudson":"Daniel Hudson",
-
-
-
-
-
-
+"Tommy Murphy":"Tom Murphy",
+"Tom Murphy":"Tom Murphy",
+"Yefry Ramirez":"Yefry Ramirez",
+"David Fletcher":"David Fletcher",
+"Jonathan Loaisiga":"Jonathan Loaisiga",
+"Corban Joseph":"Corban Joseph",
+"Jose Trevino":"Jose Trevino",
+"Adalberto Mondesi"::"Adalberto Mondesi":,
 
 
 

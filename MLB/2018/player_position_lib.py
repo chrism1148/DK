@@ -937,9 +937,14 @@ dict = {"Chris Taylor":"67",
 "Luke Voit":"3",
 "Yohander Mendez":"1",
 "Jonathan Loaisiga":"1",
-
-
-
-
+"Tom Murphy":"2",
+"Yefry Ramirez":"1",
+"David Fletcher":"6",
+"Jonathan Loaisiga":"1",
+"Corban Joseph":"4",
+"John Lamb":"1",
+"Yovani Gallardo":"1",
+"Jose Trevino":"2",
+"Adalberto Mondesi"::"46",
 
 }
