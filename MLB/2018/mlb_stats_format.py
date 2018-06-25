@@ -18,7 +18,10 @@ import re
 downloads = '/Users/chrismccallan/Downloads'
 formats = ('/Users/chrismccallan/Downloads')
 
-ifile  = os.path.join(downloads, '2018_mlb_full_season.csv')
+append_date = 20180622
+
+
+ifile  = os.path.join(downloads, 'mlb_full_season_rotoguru_append_%d.csv' % (append_date))
 
 stats = pd.read_csv(ifile)
 stats.columns= ['game_date', 'rotoguru id', 'mlb id', 'player', 'starter', 'batting order', 'dk_position_number', 'dk points', 'dk salary', 'team', 'opponent', 'double header', 'team runs', 'opponent runs']
@@ -66,6 +69,6 @@ stats['opponent runs'] = stats['opponent runs'].str.replace(r'\(.*?\){1,}', '')
 
 
 
-stats.to_csv('mlb_season_stat_20180610.csv', index=0)
+stats.to_csv('mlb_season_stat_append_%d.csv' % (append_date), index=0)
 
 

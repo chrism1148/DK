@@ -4,7 +4,7 @@ import csv
 import os
 
 
-game_date = 20180527
+game_date = 20180620
 
 
 ################################## START OF NO CHANGE POLICY ##############################
@@ -25,7 +25,7 @@ ifile_2   = os.path.join(projection_path, 'dk_mlb_projection_comparison_upload_%
 lineups = pd.read_csv(ifile_1)
 lineups.columns = ['game_date', 'source', 'rank', 'pitcher_1', 'pitcher_2', 'catcher', 'first_base', 'second_base', 'third_base', 'short_stop', 'outfield_1', 'outfield_2', 'outfield_3', 'lineup_salary']
 
-projections = pd.read_csv(ifile_2, header=None)
+projections = pd.read_csv(ifile_2, header=None, encoding='ISO-8859-1')
 projections.columns = ['game_date', 'player', 'team', 'opponent', 'postion', 'salary', 'my_proj', 'rotoql_proj', 'dfs_guru_proj', 'last_5_games_avg', 'season_avg', 'dk_points', 'bp_proj']
 
 

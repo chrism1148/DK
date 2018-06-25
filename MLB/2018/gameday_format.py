@@ -9,7 +9,7 @@ import os
 import re
 
 
-game_date = 20180612
+game_date = 20180625
 
 # #HOME
 # downloads = '/Users/chris/Downloads'
@@ -23,7 +23,7 @@ formats = ('/Users/chrismccallan/Downloads')
 
 ifile  = os.path.join(downloads, 'gameday_raw_%d.csv' % (game_date))
 
-stats = pd.read_csv(ifile)
+stats = pd.read_csv(ifile, encoding='ISO-8859-1')
 stats.columns= ['player', 'team', 'opponent', 'position', 'salary']
 
 

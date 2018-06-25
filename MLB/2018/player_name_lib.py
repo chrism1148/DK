@@ -1537,9 +1537,11 @@ dict = {
 "Jonathan Loaisiga":"Jonathan Loaisiga",
 "Corban Joseph":"Corban Joseph",
 "Jose Trevino":"Jose Trevino",
-"Adalberto Mondesi"::"Adalberto Mondesi":,
-
-
-
+"Raul Mondesi":"Adalberto Mondesi",
+"Adalberto Mondesi":"Adalberto Mondesi",
+"Jefry Rodriguez":"Jefry Rodriguez",
+"Tyler White":"Tyler White",
+"Felix Pena":"Felix Pena",
+"Steve Wilkerson":"Steve Wilkerson",
 
 }
